@@ -26,3 +26,10 @@ python3 dictionary_bot.py &
 
 ## In Action
 ![inAction](https://github.com/allendema/telegram-bot-api-scripts/blob/main/dictionary_bot_example.png)
+
+# Stoping the script
+Find the PID of the BOT then terminate it, like so:
+
+```$ ps ax | grep bot ```
+
+```$ sudo kill [PID from the command above] ```
