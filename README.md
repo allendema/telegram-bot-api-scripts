@@ -18,14 +18,27 @@ Go to the directory where the scripts are installed:
 $ cd ~/Downloads/github
 ```
 
-# Let the script run in the backgorund with the following command:
+# Let the script you want run in the background:
+
+```bash
+python3 [BOT] &
+```
+Example:
 
 ```bash
 python3 dictionary_bot.py & 
 ```
+```bash
+python3 wikipedia_bot.py & 
+```
 
-## In Action
-![inAction](https://github.com/allendema/telegram-bot-api-scripts/blob/main/dictionary_bot_example.png)
+
+###### Dictionary Bot in Action
+###### ![Dictionary Bot in Action](https://github.com/allendema/telegram-bot-api-scripts/blob/main/dictionary_bot_example.png)
+
+###### Wikipedia Bot in Action
+###### ![Wikipedia Bot in Action](https://github.com/allendema/telegram-bot-api-scripts/blob/allendema-wikipedia_bot/wikipedia_bot_example.png)
+
 
 # Stoping the script
 Find the PID of the BOT then terminate it, like so:
