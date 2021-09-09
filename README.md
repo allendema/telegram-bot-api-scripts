@@ -3,7 +3,8 @@
 Following dependency is needed:
  - requests
 
-# Saving this locally
+<details>
+<summary>Saving this locally</summary>
 
 ```bash
 $ cd ~/Downloads/
@@ -17,7 +18,8 @@ Go to the directory where the scripts are installed:
 ```bash
 $ cd ~/Downloads/github
 ```
-
+</details>
+ 
 # Let the script you want run in the background:
 
 ```bash
@@ -31,13 +33,19 @@ python3 dictionary_bot.py &
 ```bash
 python3 wikipedia_bot.py & 
 ```
+<details>
+<summary>Dictionary Bot in Action</summary>
+ 
+ ![Dictionary Bot in Action](https://github.com/allendema/telegram-bot-api-scripts/blob/main/dictionary_bot_example.png)
 
+</details> 
 
-###### Dictionary Bot in Action
-###### ![Dictionary Bot in Action](https://github.com/allendema/telegram-bot-api-scripts/blob/main/dictionary_bot_example.png)
+<details>
+<summary>Wikipedia Bot in Action</summary>
+ 
+ ![Wikipedia Bot in Action](https://github.com/allendema/telegram-bot-api-scripts/blob/allendema-wikipedia_bot/wikipedia_bot_example.png)
 
-###### Wikipedia Bot in Action
-###### ![Wikipedia Bot in Action](https://github.com/allendema/telegram-bot-api-scripts/blob/allendema-wikipedia_bot/wikipedia_bot_example.png)
+<details>
 
 
 # Stoping the script
